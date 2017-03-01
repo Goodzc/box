@@ -1,0 +1,305 @@
+
+body{
+    color: black;
+    text-align: center;
+    font-size: 62.5%;
+}
+div{
+    border: 0px red dashed;
+}
+header{
+    border: 1px gainsboro solid;
+    width: 100%;
+    height: 3rem;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    float: left;
+    margin-left: 1.5rem;
+    height: 3rem;
+    width: 4rem;
+}
+.title img{
+    height: 1.6rem;
+    width: 3.2rem;
+    margin-top: 0.6rem;
+}
+.icon{
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    width: 3rem;
+    float: left;
+    margin-left: 5rem;
+}
+.icon a{
+    color: salmon;
+}
+.ico{
+    font-size: 1.4rem;
+    padding-top: 0.6rem;
+    width: 6rem;
+    float: left;
+    margin-left: 1rem;
+    height: 2.4rem;
+}
+.ico a{
+    color: #333;
+}
+.ico:hover{
+    background-color: gainsboro;
+}
+.input1{
+    display: inline-block;
+    font-size: 1.2rem;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;;
+    border:gainsboro 0px solid;
+    background:rgba(255,255,255,0);
+    background-color: gainsboro;
+    padding:5px 6px;
+    width: 12rem;
+    float: left;
+    margin-left: 3rem;
+    margin-top:0.5rem;
+}
+.input1:hover{
+    border:gainsboro 0px solid;;
+}
+.button1{
+    float: right;
+    margin-right:1rem;
+    color: darkgrey;
+    font-size: 1.5rem;
+    background-color:coral;
+    border-radius: 5%;
+    font-weight: bold;
+    height:1.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.25rem;
+}
+.button2{
+    float:right;
+    margin-right:2rem;
+    font-size: 1.5rem;
+    border:coral 0px solid ;
+    color: coral;
+    width: 4rem;
+    margin-top: 0.75rem;
+}
+.j{
+    width: 40%;
+    float: right;
+}
+.k{
+    float:right;
+    margin-right: 4rem;
+    color: darkgrey;
+    font-size: 1.5rem;
+    width: 4rem;
+    margin-top: 0.75rem;
+}
+.l{
+    float:right;
+    margin-right: 4em;
+    color: darkgrey;
+    font-size: 1.5rem;
+    width: 4rem;
+    margin-top: 0.75rem;
+}
+.natro{
+    border: 0px black solid;
+    width: 80%;
+    margin: 0 auto;
+    height: 45rem;
+}
+nav{
+    float: left;
+    border: 0px black solid;
+    width: 70%;
+    height: 45rem;
+}
+aside{
+    float:left;
+    border: 1px black solid;
+    width: 25%;
+    height: 43rem;
+    margin-top: 1.5rem;
+}
+nav div{
+    width: 80%;
+    margin: 0 auto;
+}
+.pic1{
+    height: 20rem;
+    background-image: url(http://upload.jianshu.io/admin_banners/web_images/2815/2391fa7a6c377ef8cc05cffc4a487401c60cc710.jpg);
+    background-size:cover;
+    background-position: 0rem;
+    border-radius: 1%;
+    margin-top: 2rem;
+}
+.pic2{
+    width: 80%;
+    height: 6rem;
+}
+.pic2 div {
+    border-radius: 5%;
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin:1rem 0 1rem 1.2rem;
+}
+.pic2 div img{
+    height: 4rem;
+    width: 4rem;
+}
+aside div{
+    width: 90%;
+    height: 4rem;
+}
+aside img {
+    width: 100%;
+    height: 4rem;
+    margin: 0.25rem 0;
+}
+.look{
+    background-image:url(/box/public/img/app_download-e9146ff3a117129153d283495b51f40e.png);
+    background-size: cover;
+    height: 9rem;
+}
+.look .download{
+    float: left;
+    border: 0px red dashed;
+    width:4rem;
+    height:2rem;
+    margin: 6rem 0.4rem 1rem 0.4rem;
+    text-align: center;
+    line-height:2rem;
+    color:white;
+}
+.load1{
+    font-size:0.8rem;
+    font-weight: bold;
+    background-color: #a5a5a5;
+    border-radius:4px;
+}
+.load2{
+    font-size:0.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color:#8bc453;
+}
+.load2:hover{
+    background-color: #7caf49;
+}
+.load3{
+    font-size:0.8rem;
+    font-weight: bold;
+    background-color:#6dacf4;
+    border-radius:4px;
+}
+.load3:hover{
+    background-color:#6ba1e0;
+}
+.article{
+    height: 15rem;
+    margin-top: 1rem;
+}
+.article header{
+    border: 0px black solid;
+    height: 2rem;
+}
+.article header img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position:absolute;
+    left:16.5%;
+}
+.article header .title{
+    width: 5rem;
+    height: 1rem;
+    font-size: 1rem ;
+    font-weight: bold;
+    float: left;
+    margin-left:3rem;
+    margin-top:0.5rem;
+}
+.article header .time{
+    width: 5rem;
+    height: 1rem;
+    font-size: 0.8rem ;
+    color: grey;
+    float: left;
+    margin-top:0.5rem;
+}
+.content{
+    border: solid 0px black;
+    width: 65%;
+    float: left;
+    height: 12rem;
+    text-align: left;
+}
+.content h1{
+    font-size: 1.2rem;
+    font-weight:bold;
+    line-height: 2rem;
+}
+.content pre{
+    margin-top:-1rem;
+    font-size: 1rem;
+    line-height:1.5rem;
+}
+.picture{
+    border-radius: 5%;
+    background-image: url(http://upload-images.jianshu.io/upload_images/568470-fcb32ca84042d33b.jpg?imageMogr2/auto-orient/strip%7CimageView2/1/w/300/h/240);
+    background-size: cover;
+    width: 25%;
+    height: 8rem;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 1.6rem;
+}
+.production{
+    text-align: left;
+    border: 1px red solid;
+    height:15rem;
+    margin: 1rem 0rem;
+}
+.writer{
+    width: 80%;
+    height:1rem;
+    text-align: left;
+    font-size:0.9rem;
+    font-weight: bold;
+    color: #969696;
+}
+.pro{
+    height: 4rem;
+    margin-top:0.5rem;
+}
+.pro img{
+    height:2.5rem;
+    border: 1px black solid;
+    border-radius:50%;
+    width:2.5rem;
+}
+.pro div{
+    height: 3rem;
+    width: 9rem;
+    float: right;
+    margin-right:3rem;
+}
+.pro div h3{
+    font-size:1.5rem;
+    font-weight:bold;
+    color: #2f2f2f;
+    line-height:1rem;
+    margin:0.5rem 0rem;
+}
+.pro div p{
+    font-size:0.7rem;
+    color: #969696;
+}
