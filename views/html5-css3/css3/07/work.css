@@ -14,6 +14,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: #2f2f2f;
 }
 .title{
     float: left;
@@ -27,7 +28,7 @@ a{
     margin-top: 0.6rem;
 }
 .icon{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 0.6rem;
     width: 3rem;
     float: left;
@@ -37,7 +38,7 @@ a{
     color: salmon;
 }
 .ico{
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding-top: 0.6rem;
     width: 6rem;
     float: left;
@@ -52,62 +53,60 @@ a{
 }
 .input1{
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1rem;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
-    border-radius: 40px;;
-    border:gainsboro 0px solid;
+    border-radius: 40px;
+    border: 0px;
     background:rgba(255,255,255,0);
     background-color: gainsboro;
-    padding:5px 6px;
+    padding:3px 4px;
     width: 12rem;
     float: left;
     margin-left: 3rem;
-    margin-top:0.5rem;
-}
-.input1:hover{
-    border:gainsboro 0px solid;;
+    margin-top:0.6rem;
 }
 .button1{
     float: right;
+    font-size: 1rem;
     margin-right:1rem;
     color: darkgrey;
-    font-size: 1.5rem;
-    background-color:coral;
-    border-radius: 5%;
+    background-color:#ea6f5a;
+    border-radius:5px;
     font-weight: bold;
     height:1.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 2rem;
     margin-top: 0.25rem;
 }
+.button1 a{
+    color: white;
+}
 .button2{
+    font-size: 1rem;
     float:right;
     margin-right:2rem;
-    font-size: 1.5rem;
-    border:coral 0px solid ;
-    color: coral;
+    border:coral 1px solid ;
+    padding: 0.3rem 0.8rem;
+    border-radius:5px;
     width: 4rem;
-    margin-top: 0.75rem;
+    margin-top: 0.35rem;
 }
-.j{
-    width: 40%;
-    float: right;
+.button2 a{
+    color: coral ;
 }
-.k{
+.button2:hover{
+    background:rgba(236,97,73,.05);
+}
+
+.enter,.size{
     float:right;
-    margin-right: 4rem;
-    color: darkgrey;
-    font-size: 1.5rem;
+    margin-right: 3rem;
+    font-size: 1rem;
     width: 4rem;
     margin-top: 0.75rem;
 }
-.l{
-    float:right;
-    margin-right: 4em;
-    color: darkgrey;
-    font-size: 1.5rem;
-    width: 4rem;
-    margin-top: 0.75rem;
+.enter a,.size a{
+   color: darkgrey; ;
 }
 .natro{
     border: 0px black solid;
@@ -123,7 +122,7 @@ nav{
 }
 aside{
     float:left;
-    border: 1px black solid;
+    border: 0px black solid;
     width: 25%;
     height: 43rem;
     margin-top: 1.5rem;
@@ -136,8 +135,7 @@ nav div{
     height: 20rem;
     background-image: url(http://upload.jianshu.io/admin_banners/web_images/2815/2391fa7a6c377ef8cc05cffc4a487401c60cc710.jpg);
     background-size:cover;
-    background-position: 0rem;
-    border-radius: 1%;
+    border-radius:10px;
     margin-top: 2rem;
 }
 .pic2{
@@ -145,7 +143,6 @@ nav div{
     height: 6rem;
 }
 .pic2 div {
-    border-radius: 5%;
     height: 4rem;
     width: 4rem;
     float: left;
@@ -154,6 +151,7 @@ nav div{
 .pic2 div img{
     height: 4rem;
     width: 4rem;
+    border-radius: 10px;
 }
 aside div{
     width: 90%;
@@ -168,6 +166,9 @@ aside img {
     background-image:url(/box/public/img/app_download-e9146ff3a117129153d283495b51f40e.png);
     background-size: cover;
     height: 9rem;
+    margin:0.8rem 0;
+
+    border-radius: 10px;
 }
 .look .download{
     float: left;
@@ -206,6 +207,8 @@ aside img {
 .article{
     height: 15rem;
     margin-top: 1rem;
+    background-color: gainsboro;
+    border-radius: 10px;
 }
 .article header{
     border: 0px black solid;
@@ -247,6 +250,12 @@ aside img {
     font-weight:bold;
     line-height: 2rem;
 }
+.content a{
+    color: #2f2f2f;
+}
+.content a:hover{
+    text-decoration:underline;
+}
 .content pre{
     margin-top:-1rem;
     font-size: 1rem;
@@ -264,12 +273,13 @@ aside img {
 }
 .production{
     text-align: left;
-    border: 1px red solid;
+    border: 0px red solid;
     height:15rem;
     margin: 1rem 0rem;
 }
 .writer{
-    width: 80%;
+    width: 100%;
+    background-color:aliceblue;
     height:1rem;
     text-align: left;
     font-size:0.9rem;
@@ -277,8 +287,13 @@ aside img {
     color: #969696;
 }
 .pro{
+    width: 100%;
     height: 4rem;
     margin-top:0.5rem;
+    background-color: azure;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 .pro img{
     height:2.5rem;
