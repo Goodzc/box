@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            width: 50%;
+            border: 1px red dashed;
+            height: 20rem;
+        }
+        div{
+            border: 1px solid red;
+            color: #6ba1e0;
+            background-color:aquamarine;
+            width: 30%;
+            height: 3rem;
+        }
+        .relative{
+            position: relative;
+            top:-1rem;
+            left:16%;
+        }
+        .father{
+            width: 10em;
+            height: 10em;
+            position: relative;
+            left: 0;
+            top:0;
+        }
+        .absolute1{
+            width: 6em;
+            height: 6em;
+            background-color:#8bc453;
+            position: absolute;
+            left:1em;
+            top:1em;
+            z-index:1;
+        }
+        .absolute2{
+            width: 5em;
+            width: 5em;
+            background-color: #ea6f5a;
+            position: absolute;
+            left:1em;
+            top:1.5em;
+            z-index:2;
+        }
+        .absolute3{
+            width: 3em;
+            height: 3em;
+            background-color:gold;
+            position: absolute;
+            left: 1.5em;
+            top: 1.5em;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+<div>这是段落一，他在文档流中处于相对的位置</div>
+<div class="relative">这是段落二，他在文档流中移动了一段位置</div>
+<div>这是段落一，他在文档流中处于相对的位置</div>
+<div class="father">
+    <div class="absolute1"></div>
+    <div class="absolute2"></div>
+    <div class="absolute3"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+div{
+    width: 8em;
+    height: 8em;
+    border: 2px grey solid;
+}
+.A:hover{
+    background-image:url(/box/public/img/20160511061042_rwGF3.thumb.700_0.gif );
+    background-size:cover ;
+}
+.K:hover{
+    background-image:url(/box/public/img/084941kji8swewqwg8kiq7.gif);
+    background-size:cover ;
+}
+div:nth-child(3):hover{
+    background:url(http://p3.so.qhmsg.com/t0173eea0d637e04eb3.jpg);
+    background-size:cover;
+}
