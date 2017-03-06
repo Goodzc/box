@@ -1,6 +1,4 @@
-body{
-    margin: 0em;
-}
+
 header{
     width: 100%;
     height: 5em;
@@ -26,4 +24,66 @@ header{
     height: 100%;
     background-color: #2b2b2b;
     font-size: 1em;
+}
+.content{
+    border: 1px red solid;
+    width: 100%;
+    height: 45em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    position: relative;
+    top: 5em;
+}
+aside{
+    border: 1px red solid;
+    height: 45em;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+aside div{
+    border: 1px #555 solid;
+    width: 100%;
+    height: 25%;
+}
+ul{
+    flex-direction: column;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start:0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+ul li{
+    border-bottom: 1px #555 dashed;
+    list-style: none;
+    line-height:1.7em;
+    padding-left: 1.2em;
+}
+ul li:hover{
+    border-color: #e74c3c;
+    padding-left: 2em;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+a:hover{
+    color:#e74c3c;
+}
+ol{
+    list-style: circle;
+    line-height: 1.5em;
+}
+ol :hover{
+    list-style:disc;
+    color:#e74c3c; ;
 }
