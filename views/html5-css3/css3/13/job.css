@@ -1,25 +1,27 @@
+body{
+    border: 0;
+    margin: 0;
+}
 header{
-    border: 1px #969696 solid;
-    width: 100%;
+    border:1px #969696 solid;
+    width:1498px;
     height:5em;
 }
 .content{
-    border: solid black 1px;
-    width:70%;
-    margin: 0 auto;
+    width: 1024px;;
+    margin:2em 15% 0;
     height:45em;
 }
 aside{
     float: left;
-    width:30%;
-    height:40em;
+    width: 250px;;
+    height:90%;
     background-color:#fafafa;
 }
 section{
     float: right;
-    border: 1px solid #969696;
-    width: 60%;
-    height: 40em;
+    width: 720px;
+    height: 90%;
 }
 a{
     text-decoration: none;
@@ -37,7 +39,7 @@ ul li{
 .enter{
     line-height:2em;
     float: left;
-    margin-left:10%;
+    margin-left:5%;
 }
 .app{
     color: lawngreen;
@@ -46,7 +48,7 @@ ul li{
     height: 2em;
     float: right;
     margin-right:5%;
-    margin-top:-0.5em;
+    margin-top:0.5em;
 }
 .logo {
     height: 3em;
@@ -77,11 +79,13 @@ ul li{
     font-size:1.5em;
 }
 .list{
-    width: 40%;
+    width: 45em;
     height: 3em;
     float: left;
 }
 .list div{
+    width:3em;
+    height: 3em;
     line-height: 2em;
     float: left;
     margin-right:1em;
@@ -95,16 +99,161 @@ ul li{
     color: #2f2f2f;
 }
 .technical{
-    margin-bottom: 3em;
+    height:27%;
+    margin-bottom:20px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .technical h1{
-    width: 80%;
+    height:15px;
     margin-left:1.6em;
+    margin-bottom:20px;
     text-align:left;
 }
+.technical ul{
+    height: 16px;
+    margin-bottom:10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
 .technical ul li{
+    height:16px;
     margin-right:1em;
 }
 .technical a{
     color:#555;
+}
+.search{
+    font-size: 1em;
+    height:2em;
+}
+.search div{
+    float: left;
+}
+.input{
+    width:80%;
+    height: 1.5em;
+}
+.search input{
+    font-size: 1em;
+    width:100%;
+    height: 1.5em;
+    border: solid 2px #00b38a;
+    margin: 0;
+}
+.search a{
+    color: white;
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+    line-height: 1.5em;
+    height:1.8em;
+    width: 19%;
+    border: solid 1px #00b38a;
+    background-color: #00b38a;
+}
+.picture{
+    margin-top: 1em;
+    height:50%;
+}
+.pi{
+    height:50%;
+}
+.pic1{
+    float: left;
+    height:100%;
+    width: 80%;
+    background-image:url("/box/public/lagou/1.JPG");
+    background-size: cover;
+}
+.pic2{
+    width: 20%;
+    height: 100%;
+    float: right;
+
+}
+.pic2 ul{
+    float: right;
+    margin-right: 5px;
+    width: 80%;
+    height: 100%;
+    list-style: none;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.pic2 ul li{
+    width: 100%;
+    height: 30%;
+    background-image:url("/box/public/lagou/5.png");
+    background-size: cover;
+    margin-bottom:4%;
+    text-align: center;
+}
+.pic ul li:hover{
+    background-image:url("/box/public/lagou/6.png");
+    background-size: cover;
+}
+.pic2 img{
+    width: 95%;
+    height: 90%;
+    margin-top: 2px;
+}
+.ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+.ul li{
+    margin-top:1em;
+    width: 15%;
+    height:75%;
+    display: inline-block;
+}
+.ul li img{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    height: 4em;
+    width: 100%;
+    z-index: 999;
+    position:fixed;
+    top:90%;
+    display: flex;
+}
+footer div{
+    flex-direction: column;
+}
+.foot1{
+    background-color: #4ecb8c;
+    height: 100%;
+    width: 70%;
+
+}
+footer a{
+    color: #fff;
+    font-size: 24px;
+    line-height: 3em;
+
+}
+.foot2{
+    background-color: #4ebb7c;
+    height: 100%;
+    width: 14%;
+    text-align: center ;
+}
+.foot3{
+    background-color: red;
+    height: 100%;
+    width: 16%;
+    text-align: center ;
 }
