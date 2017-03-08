@@ -10,11 +10,6 @@ header {
     border: 1px solid #eee;
     z-index: 99;
 }
-
-div {
-    border: 1px red solid;
-}
-
 .nav {
     width: 1024px;
     height: 2em;
@@ -25,7 +20,6 @@ div {
 }
 
 .ul {
-    border: 1px red solid;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
@@ -58,6 +52,9 @@ a {
 .right li, .left li {
     border-right: 1px solid #eeeeee;
     margin: 0 2px;
+}
+.right li:hover, .left li:hover{
+    background-color: #a5a5a5;
 }
 
 #content {
@@ -107,7 +104,7 @@ a {
 }
 
 .advertising {
-    font-size: 12px;
+    font-size: 9px;
     line-height: 2.5em;
     width: 100%;
     height: 20%;
@@ -115,53 +112,96 @@ a {
 }
 
 .nav-bottom {
+    margin-top: 2em;
     width: 100%;
-    height: 39em;
+    height: 40em;
     display: flex;
     justify-content: space-around;
 }
 
 aside{
-    border: 1px red solid;
-    height: 32em;
-    width: 30%;
+    font-size: 14px;
+    border: 1px solid #eee;
+    height: 35em;
+    width: 33%;
 }
  section{
-    border: 1px red solid;
-    height: 32em;
-    width: 70%;
+     font-size:14px;
+    height: 40em;
+    width:65%;
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
      align-items: center;
+     justify-content:space-between;
 }
  .part-1,.part-2{
-     width: 50%;
-     height: 30em;
+     width: 49%;
+     height:36em;
      display: flex;
+     border: 1px solid #eee;
      flex-direction: column;
-     justify-content:space-around;
+     justify-content:space-between;
      align-items: center;
 
  }
  .pic-1{
-     width: 90%;
-     height: 40%;
+     width: 100%;
+     height: 50%;
+ }
+ .pic-1 img {
+     width: 100%;
+     height: 100%;
  }
  .article{
-     width: 90%;
-     height: 55%;
+     width: 100%;
+     height: 45%;
+     display: flex;
+     flex-direction:column;
+     justify-content: space-around;
+ }
+ .article-all{
+     align-self: flex-end;
+ }
+ .article-all a{
+     color: #6dacf4;
+ }
+ .article h4,.article p,.information p,.information h4{
+     font-family: Calibri;
+     display:inline-block;
+     line-height:1.2em;
+     margin:0;
+ }
+.information h4 a:hover{
+    color:dodgerblue ;
+}
+ .article h4:hover{
+     color:dodgerblue ;
  }
  .message{
-     width:90%;
-     height:30%;
+     width:100%;
+     height:20%;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 1em;;
  }
-@media only screen and  (min-width: 760px){
+ .pic-2{
+     width: 30%;
+     height:100%;
+ }
+ .pic-2 img{
+     width: 90%;
+     height: 80%;
+ }
+ .information{
+     width: 70%;
+     height:100%;
+ }
+@media only screen and  (min-width: 790px){
     .ri-1{
         display: none;
     }
 }
-@media only screen and (min-width: 760px) and (max-width: 1090px) {
+@media only screen and (min-width: 790px) and (max-width: 1090px) {
     .left{
         width: 360px;
     }
@@ -174,6 +214,50 @@ aside{
     .nav-top,.nav-bottom,.advertising{
         width: 100%;
     }
+    section{
+        height: 36em;;
+    }
+    .part-1{
+        justify-content: flex-start;
+    }
+    .pic-1{
+        width: 100%;
+        height: 45%;
+        margin-bottom: 5px;
+    }
+    .pic-1 img {
+        width: 100%;
+        height: 100%;
+    }
+    .article{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .part-2 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .message{
+        width:100%;
+        height:18%;
+        margin-bottom: 5px ;
+    }
+    .pic-2{
+        width: 30%;
+        height:100%;
+    }
+    .pic-2 img{
+        width: 90%;
+        height: 80%;
+    }
+    .information{
+        width: 70%;
+        height:100%;
+    }
 }@media only screen and (max-width: 1090px) {
     #pic {
         display: none;
@@ -185,7 +269,7 @@ aside{
         justify-content:space-between;
     }
 }
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 790px){
     .nav{
         justify-content:flex-end;
     }
@@ -216,6 +300,48 @@ aside{
     }
     .right{
         width: 200px;
+    }
+    #content{
+        height: 60em;;
+    }
+    .nav-bottom{
+        height: 60em;
+    }
+    section{
+        font-size: 12px;
+        height: 80em;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .part-1,.part-2{
+        height:50%;
+        margin: 1em 0;
+    }
+    .message{
+        width: 90%;
+        height:30%;
+    }
+
+    .article h4,.article p,.information p,.information h4{
+        display:inline-block;
+        line-height:1.2em;
+        margin:0;
+    }
+    .article{
+        font-size: 14px;
+        line-height:1.4em;
+    }
+    .pic-2{
+        width: 20%;
+        height:70%;
+    }
+    .pic-2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .information{
+        width: 75%;
+        height:90%;
     }
 
 }

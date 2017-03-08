@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 header{
     width: 100%;
     height: 5em;
@@ -25,20 +27,28 @@ header{
     background-color: #2b2b2b;
     font-size: 1em;
 }
-.content{
-    border: 1px red solid;
+.home{
     width: 100%;
-    height: 45em;
+    height: 2.5em;
+    background-color:#333;
+    position: fixed;
+    top: 4em;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction:row;
     position: relative;
     top: 5em;
 }
+
 aside{
-    border: 1px red solid;
     height: 45em;
-    width: 250px;
+    width: 280px;
     display: flex;
     flex-direction: column;
 }
@@ -48,8 +58,10 @@ aside{
     align-items:center;
 }
 aside div{
-    border: 1px #555 solid;
-    width: 100%;
+    border-bottom: 1px #555 solid;
+    border-left: 1px #555 solid;
+    border-right: 1px #555 solid;
+    width: 99%;
     height: 25%;
 }
 ul{
@@ -65,8 +77,11 @@ ul{
 ul li{
     border-bottom: 1px #555 dashed;
     list-style: none;
-    line-height:1.7em;
+    line-height:1.848em;
     padding-left: 1.2em;
+}
+.u{
+    border: 0;
 }
 ul li:hover{
     border-color: #e74c3c;
@@ -86,4 +101,57 @@ ol{
 ol :hover{
     list-style:disc;
     color:#e74c3c; ;
+}
+p,h4{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1.5em;
+    -webkit-margin-start: 15px;
+    -webkit-margin-end: 0px;
+}
+p{
+    font-size: 14px;
+}
+section {
+    border: 1px black solid;
+    width: 84%;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.p{
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+    width:33%;
+}
+section img{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width:1180px){
+    .p{
+        width:49.6%;
+    }
+}
+@media only screen and (min-width:860px){
+    .home{
+        display: none;
+    }
+}
+@media only screen and (max-width:860px) {
+    aside{
+        display: none;
+    }
+    section{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .p{
+        width: 100%;
+    }
+    .content{
+       position: absolute;
+        top:6.5em;
+    }
 }
