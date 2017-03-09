@@ -1,0 +1,513 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family:"微软雅黑";
+}
+/**--header--**/
+header{
+    font-size: 14px;
+    color:#F9F7F8;
+    width: 100%;
+    height: 50px;
+    background-color: #F5595B;
+    z-index: -11;
+}
+.header{
+    width: 1121px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left,.header-center,.header-right{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-left,.header-right{
+    font-family: "黑体";
+}
+.font{
+    margin:0  7px ;
+    height: 20px;
+    width: 31px;
+}
+.line{
+    margin:0  7px ;
+    height: 13px;
+    width: 1px;
+}
+.header-center{
+    justify-content: center;
+}
+.icon{
+    display: inline-block;
+}
+.icon1{
+    width: 34px;
+    height: 42px;
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat 0px 0px;
+}
+.font1{
+    margin-left: -1px;
+    width: 45px;
+    height: 22px;
+}
+.search{
+    background-color: #ffffff;
+    width: 46px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    width: 23px;
+    height: 19px;
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -49px -13px;
+}
+.icon3{
+    margin-left: 6px;
+    width: 24px;
+    height: 22px;
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -79px -13px;
+}
+.font2{
+    width: 70px;
+    margin-left: -4px;
+}
+/**content**/
+.screen1{
+    width: 100%;
+    height: 949px;
+    background: url("/box/views/fireworks/love-food/screen1.png");
+    background-size: cover;
+}
+.content{
+    margin: 0 auto;
+    width: 1142px;
+}
+.nav{
+    font-size: 20px;
+    width: 100%;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar1,.nav-bar2,.nav-bar3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 61px;
+}
+.nav-bar1{
+    border-right:0.5px #eeeeee solid;
+}
+.nav-bar1,.nav-bar2,.nav-bar3{
+    border-left: 0.5px #eeeeee solid;
+    background-color:rgba(225,225,225,0.4);
+}
+.nav-bar2{
+    border-right:0.5px #eeeeee solid;
+}
+.nav-bar1:hover,.nav-bar2:hover,.nav-bar3:hover{
+    font-size: 24px;
+    background-color: #1F3F55;
+    color: #ffffff;
+}
+.logo{
+    width:100%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat 0px -68px;
+}
+.collect{
+    margin-top: 20px;
+    font-size: 48px;
+    color: #F5595B;
+    width: 195px;
+    height: 59px;
+    line-height: 59px;
+ }
+.advertisement{
+    margin-top: 40px;
+     width: 699px;
+     height: 59px;
+     color: #ffffff;
+     font-size: 48px;
+    line-height: 59px;
+ }
+.suggest{
+    font-size: 20px;
+    margin-top: 40px;
+    width: 184px;
+    height: 44px;
+    background-color: #F5595B;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popularize{
+    margin: 0 auto;
+    width: 1121px;
+    height: 324px;
+    display: flex;
+    justify-content: space-between;
+}
+.new{
+    width: 351px;
+    height: 324px;
+}
+.ico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 176px;
+    background-color: rgba(255,255,255,0.4);
+}
+.icon4,.icon5,.icon6{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.icon4{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -142px 0px ;
+}
+.icon5{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -268px 0px ;
+}
+.icon6{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -388px 0px ;
+}
+.name{
+    font-weight: bold;
+    margin-bottom: -25px;
+    width: 44px;
+    height: 28px;
+    font-size: 20px;
+    color: #2B2119;
+}
+.name1{
+    width: 84px;
+    height: 28px;
+}
+.article{
+    width: 351px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article p{
+    font-size: 16px;
+    color: #ffffff;
+    width: 279px;
+    height: 93px;
+}
+/**--screen2--**/
+.screen2{
+    width: 100%;
+    height: 943px;
+}
+.section{
+    width: 1121px;
+    margin: 0 auto;
+}
+.send{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.thanks{
+    font-size: 24px;
+    width: 99px;
+    height: 32px;
+    color: #F5595B;
+}
+.under-line{
+    margin-top: 20px;
+    width: 193px;
+    height: 2px;
+    background-color: #000000;
+}
+.words{
+    margin-bottom: -40px;
+    margin-top: 20px;
+    width: 855px;
+    height: 119px;
+    color: #232323;
+    font-size: 18px;
+}
+.food{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.food1,.food2{
+    width: 100%;
+    height: 268px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon7,.icon8,.icon9,.icon10,.icon11,.icon12{
+    width: 350px;
+    height: 268px;
+}
+/**--screen3--**/
+.screen3{
+    width: 100%;
+    height: 600px;
+    background-color: #69737B;
+}
+.text{
+    margin: 0 auto;
+    width: 1121px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 447px;
+    height: 396px;
+}
+.right{
+    width: 650px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.dishes{
+    margin-left: 35px;
+    font-size: 24px;
+    color: #F5595B;
+    width: 120px;
+    height: 32px;
+}
+.under{
+    margin-top:20px;
+    width: 194px;
+    height: 2px;
+    background-color: #000000;
+}
+.remind{margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 220px;
+    height: 25px;
+}
+.introduce{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    width: 628px;
+    height: 287px;
+    line-height: 38px;
+}
+/**---screen4--**/
+.screen4{
+    width: 100%;
+    height: 702px;
+}
+.canister1{
+    width: 1121px;
+    height: 702px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    width: 100%;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caption{
+    width: 120px;
+    height: 32px;
+    font-size: 24px;
+    color: #F5595B;
+}
+.under1{
+    margin-top: 20px;
+    margin-bottom: -40px;
+    width: 193px;
+    height: 2px;
+    background-color: #000000;
+}
+.food-pic{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.food-picture,.food-picture1{
+    width: 280px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food-picture1,.food-picture{
+    border:1px solid #cccccc;
+}
+.food-name{
+    width: 253px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F3F55;
+}
+.food-names{
+    width: 83px;
+    height: 28px;
+    color: #ffffff;
+    font-size: 19.9px;
+}
+.food-intro{
+    font-size: 14px;
+    color: #232323;
+    width: 250px;
+    height: 79px;
+}
+.icon13{
+    width: 253px;
+    height: 169px;
+}
+.more{
+    width: 41px;
+    height: 20px;
+    color: #F55965;
+    font-size:13.94px;
+    align-self: flex-end;
+}
+/**--screen5--**/
+.screen5{
+    width: 100%;
+    height: 330px;
+    background-color: #69737B;
+}
+.rest{
+    margin: 0 auto;
+    width: 1142px;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pizza,.menu,.us,.law,.relevance{
+    width: 208px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+}
+.rest .h4{
+    font-size: 18px;
+    color: #F5595B;
+    width: 100%;
+}
+.rest ul{
+    font-size: 14px;
+    color: #ffffff;
+    height:158px;
+    display: inline-block;
+    list-style: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+li{
+    height: 30px;
+    line-height: 30px;
+}
+.top{
+    display: inline-block;
+    width: 16px;
+    height: 24px;
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -739px 0px;
+    position: fixed;
+    top:720px;
+    left:1500px;
+    z-index: 10;
+}
+/**--footer--**/
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #F5595B;
+}
+.footer{
+    margin: 0 auto;
+    width: 1142px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company{
+    width: 365px;
+    height: 21px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.ss{
+    width:200px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top:3600px;
+    left:1130px;
+}
+.span{
+    display: inline-block;
+    width: 28px;
+    height: 27px;
+}
+.span1{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -507px 0px;
+}
+.span2{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -545px 0px;
+}
+.span3{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -587px 0px;
+}
+.span4{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -626px 0px;
+}
+.span5{
+    background: url("/box/views/fireworks/love-food/icon.png") no-repeat -666px 0px;
+}
+.span6{
+     background: url("/box/views/fireworks/love-food/icon.png") no-repeat -702px 0px;
+ }
+
