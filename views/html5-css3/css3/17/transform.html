@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 600px;
+            height: 40px;
+            margin: 20px;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+        }
+        .box::after{
+            content:'';
+            transform: skew(30deg);
+            position: absolute;
+            top:0; left: 0; right: 0; bottom: 0;
+            background-color: #0aa6cb;
+            z-index: -2;
+        }
+        .box div{
+            width: 100px;
+            height: 40px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box div::after{
+            content: '';
+            position: absolute;
+            top:0; left: 0; right: 0; bottom: 0;
+            transform: skew(30deg);
+            background-color: red;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div>111</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+</div>
+</body>
+</html>
