@@ -1,0 +1,17 @@
+
+div{
+    border: 1px solid red;
+}
+.col-xs-11{
+    display: inline-block;
+    padding: 0;
+}
+.pic{
+    display: inline-block;
+    height: 126px;
+}
+.col-xs-2{
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+}
