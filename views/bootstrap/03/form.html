@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/box/public/components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/box/public/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        body{
+            height: 760px;
+            display: flex;
+            align-items: center;
+        }
+        form {
+            width: 250px;
+            height: 300px;
+            border: 1px red solid;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+        a:hover{
+            text-decoration:none;
+        }
+        #basic-addon1,#basic-addon2{
+            background-color:white;
+        }
+        .btn{
+            background-color: #d9534f;
+        }
+
+    </style>
+</head>
+<body>
+<form action="">
+    <div class="col-xs-12">
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+    </div>
+    </div>
+        <div class="col-xs-12">
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon2"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+        <input type="password" class="form-control" placeholder="password" aria-describedby="basic-addon2">
+    </div>
+        </div>
+    <div class="col-xs-12">
+        <button type="button" class="btn btn-default btn-block" >Login</button>
+    </div>
+
+        <div class="col-xs-10 col-xs-offset-2">
+            <div class="form-group">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">Remember me
+                </label>
+            </div>
+            <a href="">&nbsp;  &nbsp;&nbsp; Forgot password</a>
+        </div>
+
+    </div>
+</form>
+</body>
+</html>

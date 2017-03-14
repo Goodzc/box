@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>modus</title>
+    <link rel="stylesheet" href="/box/public/components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/box/public/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        div{
+            border: 1px red solid;
+        }
+        header{
+            width: 100%;
+            border: 1px black solid;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            background-color: #75C6BF;
+            color: #ffffff;
+        }
+        .left{
+            width: 565px;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .right{
+            font-size: 13px;
+            width: 965px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+
+        }
+        .col-xs-1{
+            height: 40px;
+            width: 100px;
+            text-align: center;
+            line-height: 40px;
+        }
+        .col-xs-1 .btn-primary{
+            background-color: #7F8B8B;
+        }
+        .dropdown .btn{
+            font-size: 14px;
+            width:100%;
+            height: 40px;
+            background-color: #ea6f5a;
+            color: white;
+        }
+        .caret{
+            color: white;
+        }
+        .tou{
+            font-size: 30px;
+        }
+        .wei{
+            font-size: 25px;
+        }
+        .jumbotron{
+            margin: 0;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #7F8B8B;
+        }
+        .aside{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 57px;
+            background-color: #E1524A;
+
+        }
+        .aside1{
+            border-radius: 0 4px 4px 0;
+        }
+        .aside2{
+            border-radius: 4px 0 0 4px;
+        }
+        .aside i{
+            color: white;
+        }
+        .center{
+            height: 150px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .vest{
+            width: 345px;
+            height: 50px;
+            background-color:#E1524A ;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 4px;
+        }
+        .mtae{
+            width: 470px;
+            height: 71px;
+            background-color:#000000;
+            text-align: center;
+            line-height: 30px;
+            font-size: 16px;
+            color: #ffffff;
+            border-radius: 4px;
+        }
+        .hr{
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hr div{
+            cursor: pointer;
+            width: 60px;
+            height: 5px;
+            background-color: #EBEBEB;
+            margin: 0 5px;
+        }
+        .hr div:hover{
+            background-color:#E1524A;
+        }
+        /**screen2**/
+        .screen2{
+            width: 1170px;
+            height: 538px;
+            margin: 0 auto;
+        }
+        .nav{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color: #EBEBEB;
+            margin-bottom: 50px;
+        }
+        .article{
+            width: 870px;
+            height: 100px;
+        }
+        h1 h5{
+            -webkit-margin-after: 0;
+            -webkit-margin-before: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+        }
+        h1{
+            color: #7F8C8C;
+        }
+        h5{
+            color: #777777;
+        }
+        .view{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .view .btn-default{
+            width: 200px;
+            height: 50px;
+            background-color: #E1524A;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .section{
+            width: 100%;
+            height: 388px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box{
+            width: 270px;
+            height: 310px;
+            background-color: #F7F7F7;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box span{
+            width: 56px;
+            height: 61px;
+            margin-bottom: 15px;
+        }
+        .fa-thumbs-o-up{
+            cursor: pointer;
+            color: #61BDBD;
+        }
+        .fa-thumbs-o-up:hover{
+            color:#E1524A ;
+        }
+        .top{
+            width: 120px;
+            height: 20px;
+            font-size: 16px;
+            color:#7F8C8C ;
+            margin-bottom: 20px;
+        }
+        .navtro{
+            width: 240px;
+            height: 76px;
+            color:#777777;
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .box .btn-default{
+            width: 200px;
+            height: 50px;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #61B8AF;
+            position: relative;
+            top: 40px;
+        }
+        .box .btn-default:hover{
+            background-color:#E1524A  ;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="left">
+        <div class="tou">MODUS</div>
+        <div class="wei">versus</div>
+    </div>
+    <div class="right">
+        <div class="col-xs-1"><button type="button" class="btn btn-primary">HOME</button></div>
+        <div class="col-xs-1">ABOUT</div>
+        <div class="col-xs-1">SERVICES</div>
+        <div class="col-xs-2">
+            <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="caret"></span>PORTFOLIO</button>
+        </div>
+            </div>
+        <div class="col-xs-1">BLOG</div>
+        <div class="col-xs-1">FEATURES</div>
+        <div class="col-xs-1">CONTACTS</div>
+        <div class="col-xs-1"><i class="fa fa-search" aria-hidden="true"></i></div>
+    </div>
+</header>
+<div class="jumbotron">
+    <div class="aside aside1"><i class="fa fa-angle-double-left fa-3x" aria-hidden="true"></i></div>
+    <div class="center">
+        <div class="vest">VESTIBULUM</div>
+        <div class="mtae">Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</div>
+    </div>
+    <div class="aside aside2"><i class="fa fa-angle-double-right fa-3x" aria-hidden="true"></i></div>
+</div>
+<div class="hr">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<!--screen2-->
+<div class="screen2">
+    <div class="nav">
+        <div class="article">
+            <h1>Some of our top services</h1>
+            <h5>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </h5>
+        </div>
+        <div class="view">
+        <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+        </div>
+    </div>
+    <div class="section">
+        <div class="box">
+            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <div class="top">SUSPENDISSE </div>
+            <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
+            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+        </div>
+        <div class="box">
+            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <div class="top">SUSPENDISSE </div>
+            <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
+            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+        </div>
+        <div class="box">
+            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <div class="top">SUSPENDISSE </div>
+            <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
+            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+        </div>
+        <div class="box">
+            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <div class="top">SUSPENDISSE </div>
+            <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
+            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
