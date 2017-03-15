@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="/box/public/components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="/box/public/font-awesome-4.7.0/css/font-awesome.css">
     <style>
-        div{
-            border: 1px red solid;
-        }
         header{
             width: 100%;
             border: 1px black solid;
@@ -135,6 +132,7 @@
             width: 1170px;
             height: 538px;
             margin: 0 auto;
+            background-color: #F7F7F7;
         }
         .nav{
             height: 100px;
@@ -183,7 +181,7 @@
         .box{
             width: 270px;
             height: 310px;
-            background-color: #F7F7F7;
+            background-color: #FFFFFF;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -195,11 +193,11 @@
             height: 61px;
             margin-bottom: 15px;
         }
-        .fa-thumbs-o-up{
+        .fa-thumbs-o-up,.fa-key,.fa-font-awesome,.fa-flask{
             cursor: pointer;
             color: #61BDBD;
         }
-        .fa-thumbs-o-up:hover{
+        .fa-thumbs-o-up:hover,.fa-key:hover,.fa-font-awesome:hover,.fa-flask:hover{
             color:#E1524A ;
         }
         .top{
@@ -229,7 +227,337 @@
         .box .btn-default:hover{
             background-color:#E1524A  ;
         }
+        /*screen3*/
+        .screen3{
+            width: 100%;
+            height: 400px;
+            background-color: #EBEBEB;
+        }
+        .scr3{
+            width: 1170px;
+            height: 400px;
+            background-color: #EBEBEB;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .why{
+            width: 453px;
+            height:45px;
+            font-size: 40px;
+            color: #E0524B;
+            line-height: 45px;
+            margin-top: 70px;
+        }
+        .capac{
+            width: 636px;
+            height: 17px;
+            font-size: 13px;
+            color: #777777;
+            line-height: 17px;
+            margin-top: 10px;
+        }
+        .your{
+            width: 100%;
+            height: 259px;
+            position:relative;
+            top: 124px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .img,.img2,.img img,.img2 img{
+            width: 370px;
+            height: 259px;
+            border-radius: 10px;
 
+        }
+        .img1 img{
+            width: 570px;
+            height: 360px;
+            border-radius: 10px;
+        }
+        .img1{
+            width: 570px;
+            height: 360px;
+            position: relative;
+            left:-72px;
+            z-index: 4;
+        }
+        .img2{
+            position: relative;
+            left:-144px;
+            z-index: 1;
+        }
+        /*screen4*/
+        .screen4{
+            width: 1170px;
+            height: 570px;
+            position: relative;
+            top: 126px;
+            margin: 0 auto;
+            background-color: #F7F7F7;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .blank{
+            width: 100%;
+            height: 100px;
+        }
+        .what,.picture, .underline,.jquery{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .what{
+            height: 45px;
+        }
+        .lt,.rt{
+            width: 180px;
+            height: 21px;
+            font-size: 16px;
+            color: #7F8C8C;
+        }
+        .ct{
+            width: 550px;
+            height: 42px;
+            font-size: 13px;
+            color: #777777;
+        }
+        .ct a{
+            color: #E0524B;
+            text-decoration: underline;
+        }
+        .picture{
+            height: 145px;
+            color: #777777;
+            font-size: 13px;
+        }
+        span{
+            color: #E0524B;
+        }
+        ul {
+            width: 270px;
+            border: 1px solid red;
+            display: inline-block;
+            list-style: none;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+            -webkit-padding-start: 0;
+        }
+        .pic{
+            width: 570px;
+            height: 145px;
+            background-image: url("./modus_r2_c2.png");
+            align-items: center;
+        }
+        .p-right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 270px;
+            height: 145px;
+            background-image: url("./1.png");
+            background-repeat: no-repeat;
+            background-position: 0 0;
+        }
+        .at{
+            width: 240px;
+            height: 120px;
+            line-height: 30px;
+        }
+        .p-right span{
+            font-size: 16px;
+            color:#7F8C8C ;
+        }
+        .underline{
+            height: 37px;
+        }
+        .under{
+            width: 800px;
+            background-color: #E0E1E1;
+        }
+        .u-right{
+            width: 180px;
+            height: 37px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        .u-right div{
+            width: 40px;
+            height: 37px;
+            margin-left: 20px;
+            border-radius: 4px;
+            color:#ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .r{
+            background-color: #E1534B;
+
+
+        }
+        .l{
+            background-color: #7E8B8B;
+        }
+        .jquery{
+            height: 180px;
+        }
+        .jquery div {
+            width: 170px;
+            height: 90px;
+            background-image: url("./modus_r2_c3.png");
+        }
+        /*screen5*/
+        .screen5{
+            width: 100%;
+            height: 350px;
+            background-color: #75C6BF;
+            position: absolute;
+            top: 2250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section0{
+            width: 1170px;
+            height: 300px;
+          display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #FFFFFF;
+        }
+        .modus{
+            width: 365px;
+            height: 210px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .modus a{
+            font-size: 30px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .a1{
+            font-size: 25px;
+            text-decoration: none;
+        }
+        .lorem{
+            height: 64px ;
+            font-size: 13px;
+        }
+        .ip{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .ph{
+            font-size: 13px;
+        }
+        .nm{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .company{
+            width: 100px;
+            height: 210px;
+        }
+        .company div,.community div{
+            color: #000000;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .community{
+            width: 130px;
+            height: 210px;
+        }
+        .blog{
+            width: 350px;
+            height: 210px;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog div{
+            font-size: 20px;
+        }
+        .p{
+            height: 70px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        .pc{
+            width: 70px;
+            height: 70px;
+            border: 1px gainsboro  solid
+        }
+        .p .article{
+            width: 250px ;
+            height: 70px;
+        }
+        p{
+            height: 36px;
+            font-size: 13px;
+        }
+        h5{
+           color: #000000;
+            font-size: 13px;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            background:rgba(0,0,0,0.1);
+        }
+        .bao{
+            margin: 0 auto;
+            width: 1170px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #ffffff;
+            font-size: 13px;
+        }
+        .k{
+            width: 120px;
+        }
+        .j{
+            width: 400px;
+            height: 50px;
+            display: flex;
+
+            justify-content:flex-end;
+            align-items: center;
+        }
+        .j i{
+            color: #ffffff;
+            margin: 0 10px;
+        }
+        .ul {
+            width: 100%;
+            border: 1px solid red;
+            display: inline-block;
+            list-style: none;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+            -webkit-padding-start: 0;
+        }
+        .ul li{
+            margin: 5px 0;
+        }
+        .ul li .fa-chevron-right{
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -282,25 +610,138 @@
             <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
             <div class="top">SUSPENDISSE </div>
             <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
-            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+            <button type="button" class="btn btn-default btn-lg">read more</button>
         </div>
         <div class="box">
-            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <span><i class="fa fa-key fa-4x" aria-hidden="true"></i></span>
             <div class="top">SUSPENDISSE </div>
             <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
-            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+            <button type="button" class="btn btn-default btn-lg">read more</button>
         </div>
         <div class="box">
-            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <span><i class="fa fa-font-awesome fa-4x" aria-hidden="true"></i></span>
             <div class="top">SUSPENDISSE </div>
             <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
-            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+            <button type="button" class="btn btn-default btn-lg">read more</button>
         </div>
         <div class="box">
-            <span><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i></span>
+            <span><i class="fa fa-flask fa-4x" aria-hidden="true"></i></span>
             <div class="top">SUSPENDISSE </div>
             <div class="navtro"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </div>
-            <button type="button" class="btn btn-default btn-lg">VIEW MORE</button>
+            <button type="button" class="btn btn-default btn-lg">read more</button>
+        </div>
+    </div>
+</div>
+<!--sreen3-->
+<div class="screen3">
+    <div class="scr3">
+    <div class="why">WHY MODUS VERSUS?</div>
+    <div class="capac">Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</div>
+    <div class="your">
+        <div class="img"><img src="/box/public/img/switcher/1.jpg" alt=""></div>
+        <div class="img1"><img src="/box/public/img/switcher/2.jpg" alt=""></div>
+        <div class="img2"><img src="/box/public/img/switcher/3.jpg" alt=""></div>
+    </div>
+    </div>
+</div>
+<!--screen4-->
+<div class="screen4">
+    <div class="blank"></div>
+    <div class="what">
+        <div class="lt">Why Choose Us ?</div>
+        <div class="ct">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus
+            <a href="">vehicula mattis.</a> Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</div>
+        <div class="rt">What Client’s Say ?</div>
+    </div>
+    <div class="picture">
+        <ul>
+            <li><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Quisque at massa ipsum </li>
+            <li><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Maecenas a lorem augue, egestas </li>
+            <li><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Cras vitae felis at lacus eleifend</li>
+            <li><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Etiam auctor diam pellentesque</li>
+            <li><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Nulla ac massa at dolor</li>
+            <li><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Condimentum eleifend vitae vitae</li>
+        </ul>
+        <div class="pic"></div>
+        <div class="p-right">
+            <div class="at"> Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. Nulla ac massa at dolor condimentum</div>
+            <span>Jhon Doe</span>
+        </div>
+    </div>
+    <div class="underline">
+        <div class="lt">Our Happy Clients</div>
+        <div class="under"></div>
+        <div class="u-right">
+            <div class="l"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></div>
+            <div class="r"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></div>
+        </div>
+    </div>
+    <div class="jquery">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</div>
+<!--screen5-->
+<div class="screen5">
+    <div class="section0">
+        <div class="modus">
+            <div><a href="">MODUS</a><a class="a1" href="">versus</a></div>
+            <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .</div>
+            <div class="ip">
+                <div class="ph">Phone:</div>
+                <div class="nm">182 2569 5896</div>
+            </div>
+            <div class="ip">
+                <div class="ph">e-mail:</div>
+                <div class="nm">info@modu.versus</div>
+            </div>
+        </div>
+        <div class="company">
+            <div>company</div>
+            <ul class="ul">
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;About</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;FAQ</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Contact</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Terms</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Privacy</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Testimonials</li>
+            </ul>
+
+        </div>
+        <div class="community">
+            <div>Community</div>
+            <ul class="ul">
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Blog</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Forum</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Support</li>
+                <li><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>&nbsp;Newsletter</li>
+            </ul>
+        </div>
+        <div class="blog">
+            <div>from the<b> BLOG</b></div>
+            <div class="p">
+                <div class="pc"></div>
+                <div class="article"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><h5>26 May, 2013</h5></div>
+            </div>
+            <div class="p">
+                <div class="pc"></div>
+                <div class="article"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><h5>26 May, 2013</h5></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bao">
+            <div class="k">2013  ModusVersus</div>
+            <div class="j">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-tumblr fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-feed fa-2x" aria-hidden="true"></i></div>
         </div>
     </div>
 </div>
