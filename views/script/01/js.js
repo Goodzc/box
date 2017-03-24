@@ -484,38 +484,79 @@ else {
 }
 console.log(i);*/
 
+//冒泡排列
+/*var a=[4,-23,47,39,2,16,398];
+function bubble(a) {
+    var k=0,
+        b=[];
+    for (var i=0;i<a.length+1;i++) {
+        for (var j = 0; j < i+1; j++) {
+            if (a[j] > a[j + 1]) {
+                k = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = k;
+            }
+            b = a;
+        }
+    }
+    console.log(b);
+}
+bubble(a);*/
+
+
+//查找数字
+/*function bubble(e) {
+    var a=[5,78,41,15,26,9,69,35,48,28];
+    var k=0,
+        b=[];
+    for (var i=0;i<=a.length+1;i++) {
+        for (var j = 0; j <=i+1; j++) {
+            if (a[j] > a[j + 1]) {
+                k = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = k;
+            }
+            b = a;
+        }
+
+    }
+    var start=0,
+        end=b.length;
+    while(true){
+        if(start==end)
+            return "没有找到";
+        var middle=Math.floor((end+start)/2);
+        if(e==b[middle])
+            return e;
+        else if(e<b[middle]){
+            end=middle;
+        }
+        else if(e>b[middle]){
+            start=middle;
+        }
+
+    }
+
+}
+bubble(41);
+console.log(bubble(41)+"找到了");*/
+
+
 
 /*
-var a=[4,-23,47,39,2,16,398],
-    k=0,
-    b=[];
-for (var i=0;i<a.length+1;i++) {
-    for (var j = 0; j < i+1; j++) {
-        if (a[j] > a[j + 1]) {
-            k = a[j];
-            a[j] = a[j + 1];
-            a[j + 1] = k;
-        }
-        b = a;
+//彩票游戏
+function good(chai_num) {
+    var s=parseInt(Math.random()*100);
+    shu_num=String(chai_num).substr(1,1).concat(String(chai_num).substr(0,1));
+    if(chai_num==s){
+        console.log("恭喜你中奖了"+"<br>"+"你购买的的彩票是："+chai_num+"<br>"+"当期彩票是："+s+"奖金10000元");
+    }
+    else if(shu_num==s){
+        console.log("恭喜你中奖了"+"<br>"+"你购买的的彩票是："+chai_num+"<br>"+"当期彩票是："+s+"奖金5000元");
+    }
+    else {
+        console.log("很遗憾，你没有中奖");
     }
 }
-console.log(b);
+good(42);
 */
-
-
-var a=[5,78,41,15,26,9,69,35,48,28],
-    k=0,
-    b=[];
-for (var i=0;i<=a.length+1;i++) {
-    for (var j = 0; j <=i+1; j++) {
-        if (a[j] > a[j + 1]) {
-            k = a[j];
-            a[j] = a[j + 1];
-            a[j + 1] = k;
-        }
-        b = a;
-    }
-
-}
-console.log(b);
-
